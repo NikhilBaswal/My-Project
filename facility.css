@@ -1,0 +1,26 @@
+.container {
+    flex: 1 1 calc(33.333% - 40px);
+    min-width: 200px;
+    background-color: lightblue;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 16px; /* Smaller font size */
+    text-align: center;
+    padding: 10px; /* Add padding inside the container */
+    box-sizing: border-box;
+    overflow: hidden; /* Hide any overflow text */
+    word-wrap: break-word; /* Break long words to fit within the box */
+}
+
+.container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    padding: 5px;
+    box-sizing: border-box;
+}
